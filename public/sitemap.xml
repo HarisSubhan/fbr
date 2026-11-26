@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://rai-interiors.example.com with the final production domain. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rai-interiors.example.com/</loc></url>
+  <url><loc>https://rai-interiors.example.com/about</loc></url>
+  <url><loc>https://rai-interiors.example.com/services</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/architecture</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/interior-design</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/furniture</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/curtains</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/flooring</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/ceiling-lighting</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/wall-finishes</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/kitchen-wardrobes</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/home-decor</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/commercial</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/hospitality</loc></url>
+  <url><loc>https://rai-interiors.example.com/services/turnkey</loc></url>
+  <url><loc>https://rai-interiors.example.com/one-window</loc></url>
+  <url><loc>https://rai-interiors.example.com/projects</loc></url>
+  <url><loc>https://rai-interiors.example.com/before-after</loc></url>
+  <url><loc>https://rai-interiors.example.com/contact</loc></url>
+</urlset>

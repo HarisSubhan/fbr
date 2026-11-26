@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="64" viewBox="0 0 240 64" role="img" aria-label="RAI INTERIORS">
+  <!-- Placeholder wordmark. Replace this file with the official RAI INTERIORS logo. -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#c9a45c" stroke-width="2.5"/>
+  <text x="32" y="42" font-family="Georgia, serif" font-size="26" font-weight="600" fill="#c9a45c" text-anchor="middle">R</text>
+  <text x="68" y="34" font-family="Georgia, serif" font-size="19" font-weight="600" letter-spacing="3" fill="#f6f1e6">RAI INTERIORS</text>
+  <text x="68" y="50" font-family="Arial, sans-serif" font-size="7.5" letter-spacing="4" fill="#ab8640">POWERED BY AZZAN'S</text>
+</svg>
