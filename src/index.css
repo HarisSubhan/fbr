@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Jost", "Segoe UI", sans-serif;
+
+  --color-burgundy-950: #17060b;
+  --color-burgundy-900: #230a11;
+  --color-burgundy-850: #2c0d16;
+  --color-burgundy-800: #3a111d;
+  --color-burgundy-700: #4c1626;
+  --color-burgundy-600: #601c2f;
+  --color-burgundy-500: #73243a;
+
+  --color-gold-200: #f0e4c3;
+  --color-gold-300: #e6d2a4;
+  --color-gold-400: #d9bd7e;
+  --color-gold-500: #c9a45c;
+  --color-gold-600: #ab8640;
+  --color-gold-700: #8a6a2f;
+
+  --color-ivory-50: #fbf9f3;
+  --color-ivory-100: #f6f1e6;
+  --color-ivory-200: #ece4d2;
+  --color-ivory-300: #ded2b8;
+
+  --color-charcoal: #2b2622;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-ivory-50);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  overflow-x: hidden;
+}
+
+.dark body {
+  color: var(--color-ivory-100);
+  background-color: var(--color-burgundy-950);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px var(--color-gold-500);
+  color: transparent;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(105deg, #ab8640 0%, #e6d2a4 40%, #c9a45c 60%, #f0e4c3 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-line {
+  background: linear-gradient(90deg, transparent, var(--color-gold-500), transparent);
+  height: 1px;
+}
+
+.noise-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--color-gold-500);
+  color: var(--color-burgundy-900);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory-100);
+}
+.dark ::-webkit-scrollbar-track {
+  background: var(--color-burgundy-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-600);
+  border-radius: 8px;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
