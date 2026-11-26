@@ -61,7 +61,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Interior Design',
     tagline: 'Interiors composed around the way you live.',
     description:
-      'Our interior design studio creates residential and commercial spaces that feel considered from every angle. We plan layouts, select materials and colors, and style every corner \u2014 combining architectural understanding with a refined sense of comfort. The result is a space that is distinctly yours, executed to a premium standard.',
+      'Our interior design studio creates residential and commercial spaces that feel considered from every angle. We plan layouts, select materials and colors, and style every corner — combining architectural understanding with a refined sense of comfort. The result is a space that is distinctly yours, executed to a premium standard.',
     image: img('1618221195710-dd6b41faaea6'),
     items: [
       'Residential Interior Design',
@@ -81,7 +81,7 @@ export const services: ServiceItem[] = [
       { title: 'Concept to Styling', text: 'One team carries your project from mood boards to the final cushion placement.' },
       { title: '3D First', text: 'Walk through your space in 3D before a single wall is touched.' },
       { title: 'Material Mastery', text: 'Curated palettes, textures and finishes selected for lasting elegance.' },
-      { title: 'Personalized Design', text: 'No template homes \u2014 every scheme is drawn around your routines and taste.' },
+      { title: 'Personalized Design', text: 'No template homes — every scheme is drawn around your routines and taste.' },
     ],
     faqs: [
       {
@@ -92,7 +92,7 @@ export const services: ServiceItem[] = [
       {
         question: 'Can I hire you for design only, without execution?',
         answer:
-          'Yes. Our design package can be delivered as drawings and visualizations for your own contractor \u2014 though most clients choose our one-window execution for consistency.',
+          'Yes. Our design package can be delivered as drawings and visualizations for your own contractor — though most clients choose our one-window execution for consistency.',
       },
     ],
   },
@@ -102,7 +102,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Furniture',
     tagline: 'Bespoke pieces, made for your space.',
     description:
-      'Furniture is where comfort meets craft. We design and manufacture bespoke sofas, beds, consoles and storage \u2014 tailored to your dimensions, materials and style. From a single statement piece to complete home or office furnishing, every item is built with premium materials and finished by hand.',
+      'Furniture is where comfort meets craft. We design and manufacture bespoke sofas, beds, consoles and storage — tailored to your dimensions, materials and style. From a single statement piece to complete home or office furnishing, every item is built with premium materials and finished by hand.',
     image: img('1538688525198-9b88f6f53126'),
     items: [
       'Custom Furniture',
@@ -121,7 +121,7 @@ export const services: ServiceItem[] = [
       'Custom Storage Solutions',
     ],
     benefits: [
-      { title: 'Made to Measure', text: 'Every piece is proportioned to your room \u2014 never squeezed from a catalogue.' },
+      { title: 'Made to Measure', text: 'Every piece is proportioned to your room — never squeezed from a catalogue.' },
       { title: 'Material Choice', text: 'Choose fabrics, woods, finishes and hardware with our designers.' },
       { title: 'Craft & Durability', text: 'Solid joinery, premium foam and upholstery built for years of use.' },
       { title: 'Suite Coordination', text: 'Sofas, tables, consoles and headboards designed as one coherent collection.' },
@@ -145,7 +145,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Curtains & Blinds',
     tagline: 'Dressed windows, perfected light.',
     description:
-      'The right window treatment changes the entire mood of a room. From silk-look luxury drapes and sheer layers to motorized blinds, we measure, fabricate and install complete window solutions. Choose from a curated library of fabrics, pleat styles, tracks and blind systems \u2014 all fitted by our own team.',
+      'The right window treatment changes the entire mood of a room. From silk-look luxury drapes and sheer layers to motorized blinds, we measure, fabricate and install complete window solutions. Choose from a curated library of fabrics, pleat styles, tracks and blind systems — all fitted by our own team.',
     image: img('1513161455079-7dc1de15ef3e'),
     items: [
       'Luxury Curtains',
@@ -174,7 +174,7 @@ export const services: ServiceItem[] = [
       {
         question: 'How do I choose between curtains and blinds?',
         answer:
-          'During our visit we consider your window size, light control needs and interior style \u2014 many rooms benefit from a layered combination of sheers plus blackout or a blind.',
+          'During our visit we consider your window size, light control needs and interior style — many rooms benefit from a layered combination of sheers plus blackout or a blind.',
       },
       {
         question: 'Can existing curtains be motorized?',
@@ -300,7 +300,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Kitchen & Wardrobes',
     tagline: 'Storage as refined as the rest of your home.',
     description:
-      'Kitchens and wardrobes work hardest in any home \u2014 they should also look the best. We design modular kitchens with considered workflows, premium cabinetry and hardware, plus walking-wardrobe and sliding systems tailored to your clothing and storage. Every unit is custom-manufactured to your exact dimensions.',
+      'Kitchens and wardrobes work hardest in any home — they should also look the best. We design modular kitchens with considered workflows, premium cabinetry and hardware, plus walking-wardrobe and sliding systems tailored to your clothing and storage. Every unit is custom-manufactured to your exact dimensions.',
     image: img('1556909114-f6e7ad7d3136'),
     items: [
       'Modular Kitchens',
@@ -323,7 +323,7 @@ export const services: ServiceItem[] = [
       {
         question: 'How long does a modular kitchen take?',
         answer:
-          'After design approval, manufacturing and installation typically complete within a standard project window \u2014 our team confirms dates with your quotation.',
+          'After design approval, manufacturing and installation typically complete within a standard project window — our team confirms dates with your quotation.',
       },
       {
         question: 'Can wardrobes be fitted into odd-shaped rooms?',
@@ -334,11 +334,11 @@ export const services: ServiceItem[] = [
   },
   {
     slug: 'home-decor',
-    title: 'Home D\u00e9cor & Accessories',
-    shortTitle: 'Home D\u00e9cor',
+    title: 'Home Décor & Accessories',
+    shortTitle: 'Home Décor',
     tagline: 'The finishing layer of luxury.',
     description:
-      'It is the last five percent that makes a space feel complete. We curate luxury rugs, artwork, mirrors, vases, cushions and accessories that pull your entire palette together. Styled by our designers \u2014 or supplied for your own stylist \u2014 these pieces add warmth, character and a polished final impression.',
+      'It is the last five percent that makes a space feel complete. We curate luxury rugs, artwork, mirrors, vases, cushions and accessories that pull your entire palette together. Styled by our designers — or supplied for your own stylist — these pieces add warmth, character and a polished final impression.',
     image: img('1586023492125-27b2c045efd7'),
     items: [
       'Luxury Rugs',
@@ -361,7 +361,7 @@ export const services: ServiceItem[] = [
     ],
     faqs: [
       {
-        question: 'Can you suggest d\u00e9cor for an already-furnished room?',
+        question: 'Can you suggest décor for an already-furnished room?',
         answer:
           'Yes. A styling consultation reviews what you own and recommends the rugs, art and accessories that will complete the look.',
       },
@@ -378,7 +378,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Commercial',
     tagline: 'Workspaces that work beautifully.',
     description:
-      'Commercial spaces must perform \u2014 for your team, your customers and your brand. We design and fit out offices, showrooms, reception areas, restaurants and caf\u00e9s, balancing durable materials with a distinctive brand atmosphere. From space planning to final signage and furniture, one team handles the entire fit-out.',
+      'Commercial spaces must perform — for your team, your customers and your brand. We design and fit out offices, showrooms, reception areas, restaurants and cafés, balancing durable materials with a distinctive brand atmosphere. From space planning to final signage and furniture, one team handles the entire fit-out.',
     image: img('1497366216548-37526070297c'),
     items: [
       'Corporate Office Interiors',
@@ -387,7 +387,7 @@ export const services: ServiceItem[] = [
       'Reception Areas',
       'Conference Rooms',
       'Restaurants',
-      'Caf\u00e9s',
+      'Cafés',
       'Office Furniture',
       'Commercial Furnishing',
     ],
@@ -395,11 +395,11 @@ export const services: ServiceItem[] = [
       { title: 'Brand-Led Design', text: 'Interiors that express your brand identity across every zone.' },
       { title: 'Durable Materials', text: 'Commercial-grade finishes specified for heavy daily use.' },
       { title: 'Phased Fit-Outs', text: 'Works scheduled to minimize disruption to your operations.' },
-      { title: 'Complete Scope', text: 'Partitions, floors, ceilings, furniture and d\u00e9cor from one partner.' },
+      { title: 'Complete Scope', text: 'Partitions, floors, ceilings, furniture and décor from one partner.' },
     ],
     faqs: [
       {
-        question: 'Can you work within our building\u2019s after-hours rules?',
+        question: 'Can you work within our building’s after-hours rules?',
         answer:
           'Yes. We regularly schedule noisy works outside business hours and coordinate with building management.',
       },
@@ -438,12 +438,12 @@ export const services: ServiceItem[] = [
       {
         question: 'Can you furnish an entire hotel floor?',
         answer:
-          'Yes. We plan phased room furnishing programs \u2014 design, manufacturing, delivery and installation \u2014 coordinated around your occupancy.',
+          'Yes. We plan phased room furnishing programs — design, manufacturing, delivery and installation — coordinated around your occupancy.',
       },
       {
-        question: 'Do you design restaurant and caf\u00e9 interiors?',
+        question: 'Do you design restaurant and café interiors?',
         answer:
-          'Yes. Dining spaces, caf\u00e9s and resort venues are a core part of our hospitality portfolio.',
+          'Yes. Dining spaces, cafés and resort venues are a core part of our hospitality portfolio.',
       },
     ],
   },
@@ -453,7 +453,7 @@ export const services: ServiceItem[] = [
     shortTitle: 'Turnkey',
     tagline: 'Hand us an empty space. We hand back a finished home.',
     description:
-      'Our turnkey service is the one-window promise in its purest form. You share your vision; we manage design, approvals, procurement, manufacturing, installation and handover. A single project manager coordinates every trade, every material and every deadline \u2014 so you never chase vendors, and the finished space is exactly what was promised.',
+      'Our turnkey service is the one-window promise in its purest form. You share your vision; we manage design, approvals, procurement, manufacturing, installation and handover. A single project manager coordinates every trade, every material and every deadline — so you never chase vendors, and the finished space is exactly what was promised.',
     image: img('1600607687939-ce8a6c25118c'),
     items: [
       'Complete Interior Planning',
@@ -463,7 +463,7 @@ export const services: ServiceItem[] = [
       'Flooring & Ceiling',
       'Lighting',
       'Curtains & Blinds',
-      'D\u00e9cor & Accessories',
+      'Décor & Accessories',
       'Installation',
       'Final Project Handover',
     ],
@@ -482,7 +482,7 @@ export const services: ServiceItem[] = [
       {
         question: 'How is a turnkey project priced?',
         answer:
-          'After the design is approved we present a detailed, itemized proposal covering each scope, material and milestone \u2014 so you approve the full picture before execution begins.',
+          'After the design is approved we present a detailed, itemized proposal covering each scope, material and milestone — so you approve the full picture before execution begins.',
       },
     ],
   },
