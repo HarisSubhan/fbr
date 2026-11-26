@@ -20,7 +20,7 @@ const journey = [
   },
   {
     title: 'One Design Team',
-    text: 'Architects and interior designers develop your project together \u2014 so the structure and the finishes never argue with each other.',
+    text: 'Architects and interior designers develop your project together — so the structure and the finishes never argue with each other.',
   },
   {
     title: 'One Procurement Channel',
@@ -32,14 +32,14 @@ const journey = [
   },
   {
     title: 'One Handover',
-    text: 'You receive a finished, styled, cleaned space \u2014 with every question answered by the same project manager.',
+    text: 'You receive a finished, styled, cleaned space — with every question answered by the same project manager.',
   },
 ]
 
 export default function OneWindow() {
   usePageMeta(
     `One-Window Solution | ${siteConfig.name}`,
-    'One partner, every detail, complete transformation. Architecture, design, furniture, curtains, flooring, lighting, kitchens, wardrobes, d\u00e9cor and installation through one company.',
+    'One partner, every detail, complete transformation. Architecture, design, furniture, curtains, flooring, lighting, kitchens, wardrobes, décor and installation through one company.',
   )
   const toast = useToast()
 
@@ -48,7 +48,7 @@ export default function OneWindow() {
       <PageHero
         eyebrow="Our Signature Model"
         title="ONE PARTNER. EVERY DETAIL. COMPLETE TRANSFORMATION."
-        subtitle="Architecture, design, furniture, curtains, flooring, lighting, kitchen, wardrobes, d\u00e9cor and installation \u2014 coordinated through one company, one contract and one point of contact."
+        subtitle="Architecture, design, furniture, curtains, flooring, lighting, kitchen, wardrobes, décor and installation — coordinated through one company, one contract and one point of contact."
         image={img('1600210492486-724fe5c67fb0')}
         crumbs={[{ label: 'Home', to: '/' }, { label: 'One-Window Solution' }]}
       />
@@ -107,7 +107,7 @@ export default function OneWindow() {
 
       <CTASection
         headline="ONE CALL STARTS EVERYTHING."
-        description="Message us on WhatsApp with your space and requirements \u2014 we will take it from there, exactly as we do with every detail of your project."
+        description="Message us on WhatsApp with your space and requirements — we will take it from there, exactly as we do with every detail of your project."
       />
     </>
   )

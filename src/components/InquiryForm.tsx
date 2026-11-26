@@ -55,7 +55,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
     const ok = openWhatsApp(message)
     if (!ok) {
       setErrors([
-        'WhatsApp inquiries are temporarily unavailable \u2014 the WhatsApp number has not been configured yet. Please check back soon.',
+        'WhatsApp inquiries are temporarily unavailable — the WhatsApp number has not been configured yet. Please check back soon.',
       ])
     }
   }
@@ -80,7 +80,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
       <div>
         <label htmlFor="inq-service" className={labelCls}>Select Service *</label>
         <select id="inq-service" className={inputCls} value={form.service} onChange={set('service')}>
-          <option value="">Select a service\u2026</option>
+          <option value="">Select a service…</option>
           <option value="Architecture & Architectural Design">Architecture & Architectural Design</option>
           <option value="Interior Design & Space Planning">Interior Design & Space Planning</option>
           <option value="Furniture & Custom Furniture">Furniture & Custom Furniture</option>
@@ -89,7 +89,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
           <option value="Ceiling & Lighting Solutions">Ceiling & Lighting Solutions</option>
           <option value="Wall Finishes & Paneling">Wall Finishes & Paneling</option>
           <option value="Kitchen & Wardrobe Solutions">Kitchen & Wardrobe Solutions</option>
-          <option value="Home D\u00e9cor & Accessories">Home D\u00e9cor & Accessories</option>
+          <option value="Home Décor & Accessories">Home Décor & Accessories</option>
           <option value="Corporate & Commercial Interiors">Corporate & Commercial Interiors</option>
           <option value="Hospitality & Hotel Interiors">Hospitality & Hotel Interiors</option>
           <option value="Turnkey Interior Project">Turnkey Interior Project</option>
@@ -99,7 +99,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
       <div>
         <label htmlFor="inq-type" className={labelCls}>Project Type *</label>
         <select id="inq-type" className={inputCls} value={form.projectType} onChange={set('projectType')}>
-          <option value="">Select a project type\u2026</option>
+          <option value="">Select a project type…</option>
           {siteConfig.projectTypes.map((t) => (
             <option key={t} value={t}>{t}</option>
           ))}
@@ -111,7 +111,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
       </div>
       <div className="sm:col-span-2">
         <label htmlFor="inq-req" className={labelCls}>Project Details / Requirements *</label>
-        <textarea id="inq-req" rows={4} className={inputCls} value={form.requirements} onChange={set('requirements')} placeholder="Tell us about your space, rooms, style preferences and budget range\u2026" />
+        <textarea id="inq-req" rows={4} className={inputCls} value={form.requirements} onChange={set('requirements')} placeholder="Tell us about your space, rooms, style preferences and budget range…" />
       </div>
       <div className="sm:col-span-2">
         <label htmlFor="inq-msg" className={labelCls}>Additional Message</label>
@@ -137,7 +137,7 @@ export default function InquiryForm({ presetService, title, subtitle }: Props) {
           <Send className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
         </button>
         <p className="text-xs text-charcoal/55 dark:text-ivory-100/45">
-          Submitting opens WhatsApp with your inquiry pre-filled \u2014 nothing is sent to any server.
+          Submitting opens WhatsApp with your inquiry pre-filled — nothing is sent to any server.
         </p>
       </div>
     </form>

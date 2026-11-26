@@ -12,7 +12,7 @@ const img = (id: string, w = 2000) =>
 export default function ServicesIndex() {
   usePageMeta(
     `Our Services | ${siteConfig.name}`,
-    'Explore all RAI INTERIORS services: architecture, interior design, furniture, curtains and blinds, flooring, ceilings and lighting, wall finishes, kitchens and wardrobes, d\u00e9cor, commercial, hospitality and turnkey projects.',
+    'Explore all RAI INTERIORS services: architecture, interior design, furniture, curtains and blinds, flooring, ceilings and lighting, wall finishes, kitchens and wardrobes, décor, commercial, hospitality and turnkey projects.',
   )
 
   return (
@@ -20,7 +20,7 @@ export default function ServicesIndex() {
       <PageHero
         eyebrow="Our Services"
         title="Every Discipline. One Studio."
-        subtitle="Twelve complete service lines \u2014 from architectural planning to the final cushion \u2014 delivered under our one-window standard."
+        subtitle="Twelve complete service lines — from architectural planning to the final cushion — delivered under our one-window standard."
         image={img('1600585154340-be6161a56a0c')}
         crumbs={[{ label: 'Home', to: '/' }, { label: 'Services' }]}
       />

@@ -14,7 +14,7 @@ const img = (id: string, w = 2000) =>
 export default function Contact() {
   usePageMeta(
     `Contact Us | ${siteConfig.name}`,
-    'Contact RAI INTERIORS \u2014 visit us at Faisal Plaza, near PIA Building, Islamabad, Pakistan, or send an inquiry directly through WhatsApp.',
+    'Contact RAI INTERIORS — visit us at Faisal Plaza, near PIA Building, Islamabad, Pakistan, or send an inquiry directly through WhatsApp.',
   )
   const toast = useToast()
 
@@ -22,7 +22,7 @@ export default function Contact() {
     const ok = openWhatsApp(siteConfig.whatsapp.contextMessage)
     if (!ok) {
       toast(
-        'WhatsApp inquiries are temporarily unavailable \u2014 the WhatsApp number has not been configured yet. Please check back soon.',
+        'WhatsApp inquiries are temporarily unavailable — the WhatsApp number has not been configured yet. Please check back soon.',
       )
     }
   }
@@ -32,7 +32,7 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact Us"
         title="LET'S TALK ABOUT YOUR SPACE."
-        subtitle="Send us your details below \u2014 your inquiry opens directly in WhatsApp and reaches our design team instantly."
+        subtitle="Send us your details below — your inquiry opens directly in WhatsApp and reaches our design team instantly."
         image={img('1600121848594-d8644e57abab')}
         crumbs={[{ label: 'Home', to: '/' }, { label: 'Contact Us' }]}
       />
@@ -60,7 +60,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-burgundy-800 dark:text-ivory-100">Phone</p>
                   <p className="mt-1 text-sm italic text-charcoal/55 dark:text-ivory-100/50">
-                    To be provided \u2014 placeholder for now.
+                    To be provided — placeholder for now.
                   </p>
                 </div>
               </li>
@@ -69,7 +69,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-burgundy-800 dark:text-ivory-100">Email</p>
                   <p className="mt-1 text-sm italic text-charcoal/55 dark:text-ivory-100/50">
-                    To be provided \u2014 placeholder for now.
+                    To be provided — placeholder for now.
                   </p>
                 </div>
               </li>
@@ -98,7 +98,7 @@ export default function Contact() {
           >
             <InquiryForm
               title="Request a Consultation"
-              subtitle="All required fields are marked with * \u2014 your answers are sent to WhatsApp exactly as you type them."
+              subtitle="All required fields are marked with * — your answers are sent to WhatsApp exactly as you type them."
             />
           </AnimatedSection>
         </div>
@@ -113,7 +113,7 @@ export default function Contact() {
           />
           <AnimatedSection className="mt-12 overflow-hidden rounded-3xl border border-gold-500/25 shadow-xl">
             <iframe
-              title="RAI INTERIORS location map \u2014 Faisal Plaza, near PIA Building, Islamabad"
+              title="RAI INTERIORS location map — Faisal Plaza, near PIA Building, Islamabad"
               src={siteConfig.contact.mapEmbedUrl}
               className="h-[420px] w-full"
               loading="lazy"
@@ -141,7 +141,7 @@ export default function Contact() {
             </a>
           </div>
           <p className="mt-6 text-center text-xs text-charcoal/55 dark:text-ivory-100/45">
-            Map currently points to a location search for \u201c{siteConfig.contact.mapQuery}\u201d \u2014 it will be updated to the
+            Map currently points to a location search for “{siteConfig.contact.mapQuery}” — it will be updated to the
             exact verified pin once provided.
           </p>
         </div>

@@ -19,7 +19,7 @@ const pillars = [
   {
     icon: Eye,
     title: 'Our Vision',
-    text: 'To become the region\u2019s most trusted one-window interior partner \u2014 the studio clients call first, and the only one they need.',
+    text: 'To become the region’s most trusted one-window interior partner — the studio clients call first, and the only one they need.',
   },
   {
     icon: ScrollText,
@@ -31,7 +31,7 @@ const pillars = [
 export default function About() {
   usePageMeta(
     `About Us | ${siteConfig.name}`,
-    "Learn about RAI INTERIORS, powered by AZZAN'S \u2014 our story, vision, mission and one-window approach to complete interior solutions.",
+    "Learn about RAI INTERIORS, powered by AZZAN'S — our story, vision, mission and one-window approach to complete interior solutions.",
   )
 
   return (
@@ -39,7 +39,7 @@ export default function About() {
       <PageHero
         eyebrow="About Us"
         title="More Than Interiors. A Complete Experience."
-        subtitle="One team for design, furniture, finishes, fittings and execution \u2014 united under a single standard of quality."
+        subtitle="One team for design, furniture, finishes, fittings and execution — united under a single standard of quality."
         image={img('1600210491892-03d54c0aaf87', 2000)}
         crumbs={[{ label: 'Home', to: '/' }, { label: 'About Us' }]}
       />
@@ -56,13 +56,13 @@ export default function About() {
             <span className="gold-line mt-6 w-28" />
             <p className="mt-6 leading-relaxed text-charcoal/80 dark:text-ivory-100/75">
               RAI INTERIORS was founded on a simple observation: clients with beautiful visions were spending their
-              energy coordinating architects, furniture makers, curtain suppliers, flooring crews and electricians \u2014
+              energy coordinating architects, furniture makers, curtain suppliers, flooring crews and electricians —
               instead of enjoying the transformation of their space.
             </p>
             <p className="mt-4 leading-relaxed text-charcoal/80 dark:text-ivory-100/75">
               Our answer is the one-window philosophy. Every discipline lives under one roof, follows one design
               language and answers to one project manager. When every detail belongs to the same plan, the result
-              feels effortless \u2014 because for the client, it is.
+              feels effortless — because for the client, it is.
             </p>
           </AnimatedSection>
           <AnimatedSection direction="left">

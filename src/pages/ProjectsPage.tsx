@@ -64,7 +64,7 @@ export default function ProjectsPage() {
             </AnimatePresence>
           </motion.div>
           <p className="mt-12 text-center text-xs text-charcoal/55 dark:text-ivory-100/45">
-            Visualizations shown are representative demo content \u2014 update them with actual project documentation in
+            Visualizations shown are representative demo content — update them with actual project documentation in
             the central projects data file.
           </p>
         </div>
