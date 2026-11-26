@@ -14,7 +14,7 @@ export default function Footer() {
     const ok = openWhatsApp(message ?? siteConfig.whatsapp.contextMessage)
     if (!ok) {
       toast(
-        'WhatsApp inquiries are temporarily unavailable \u2014 the WhatsApp number has not been configured yet. Please check back soon.',
+        'WhatsApp inquiries are temporarily unavailable — the WhatsApp number has not been configured yet. Please check back soon.',
       )
     }
   }
@@ -104,7 +104,7 @@ export default function Footer() {
           </p>
           <div className="mt-4 overflow-hidden rounded-xl border border-gold-500/25">
             <iframe
-              title="RAI INTERIORS location \u2014 Faisal Plaza, near PIA Building, Islamabad"
+              title="RAI INTERIORS location — Faisal Plaza, near PIA Building, Islamabad"
               src={siteConfig.contact.mapEmbedUrl}
               className="h-36 w-full grayscale-[30%]"
               loading="lazy"
@@ -134,7 +134,7 @@ export default function Footer() {
       <div className="border-t border-gold-500/15">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-6 text-xs text-charcoal/60 dark:text-ivory-100/50 sm:flex-row sm:px-6 lg:px-8">
           <p className="tracking-wide">
-            \u00a9 {new Date().getFullYear()} {siteConfig.name}. {siteConfig.tagline}.
+            © {new Date().getFullYear()} {siteConfig.name}. {siteConfig.tagline}.
           </p>
           <p className="tracking-[0.25em] text-gold-600 dark:text-gold-500">{siteConfig.motto}</p>
         </div>

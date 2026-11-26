@@ -47,7 +47,7 @@ export default function BeforeAfterSlider({ slide }: { slide: BeforeAfterSlide }
       >
         <img
           src={slide.after}
-          alt={`${slide.title} \u2014 after demo view`}
+          alt={`${slide.title} — after demo view`}
           className="absolute inset-0 h-full w-full object-cover"
           loading="lazy"
           draggable={false}
@@ -58,7 +58,7 @@ export default function BeforeAfterSlider({ slide }: { slide: BeforeAfterSlide }
         >
           <img
             src={slide.before}
-            alt={`${slide.title} \u2014 before demo view`}
+            alt={`${slide.title} — before demo view`}
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"
             draggable={false}

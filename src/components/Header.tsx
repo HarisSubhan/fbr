@@ -37,7 +37,7 @@ export default function Header() {
     const ok = openWhatsApp(siteConfig.whatsapp.contextMessage)
     if (!ok) {
       toast(
-        'WhatsApp inquiries are temporarily unavailable \u2014 the WhatsApp number has not been configured yet. Please check back soon.',
+        'WhatsApp inquiries are temporarily unavailable — the WhatsApp number has not been configured yet. Please check back soon.',
       )
     }
   }

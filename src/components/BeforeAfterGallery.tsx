@@ -60,7 +60,7 @@ export default function BeforeAfterGallery({
       {note && (
         <p className="mt-10 text-center text-xs text-charcoal/55 dark:text-ivory-100/45">
           The comparisons shown use representative demo visuals. Replace them with actual RAI INTERIORS project
-          photography via the central data file \u2014 no component changes required.
+          photography via the central data file — no component changes required.
         </p>
       )}
     </div>

@@ -16,7 +16,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     )
     if (!ok) {
       toast(
-        'WhatsApp inquiries are temporarily unavailable \u2014 the WhatsApp number has not been configured yet. Please check back soon.',
+        'WhatsApp inquiries are temporarily unavailable — the WhatsApp number has not been configured yet. Please check back soon.',
       )
     }
   }
@@ -115,7 +115,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                   Inquire About a Similar Project
                 </button>
                 <p className="text-xs text-charcoal/55 dark:text-ivory-100/45">
-                  Representative demo visualization \u2014 not a completed RAI INTERIORS client project.
+                  Representative demo visualization — not a completed RAI INTERIORS client project.
                 </p>
               </div>
             </motion.div>
